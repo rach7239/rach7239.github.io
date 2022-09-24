@@ -1,0 +1,45 @@
+html {
+    font-family: lato; 
+  }
+  
+body {
+    margin: 0;
+    background: white;
+  }
+
+h1 {
+    font-size: 72pt;
+    color: #4D4946;
+}
+
+h2 {
+    font-size: 48pt;
+}
+
+h3 {
+    font-size: 36pt;
+}
+
+h4 {
+    font-size: 30pt;
+}
+
+h5 {
+    font-size: 24pt;
+}
+
+p {
+    font-size: 16pt;
+}
+
+hr {
+    border-top: 1 px #A99282;
+}
+
+a:link {
+    color: #D7D2CE;
+  }
+
+a:hover {
+    color: #D3C0B2;
+  }
