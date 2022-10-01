@@ -1,45 +1,93 @@
-html {
-    font-family:Arial, Helvetica, sans-serif; 
-  }
-  
-body {
-    margin: 0;
-    background: white;
-  }
-
 h1 {
-    font-size: 72pt;
-    color: #4D4946;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 60px;
+    color: #D7D2CE;
 }
 
 h2 {
-    font-size: 48pt;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
 }
 
 h3 {
-    font-size: 36pt;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
 }
 
 h4 {
-    font-size: 30pt;
-}
-
-h5 {
-    font-size: 24pt;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
 }
 
 p {
-    font-size: 16pt;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4D4946;
 }
 
-hr {
-    border-top: 1 px #A99282;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CCE3DE;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #D3C0B2;
+  }
+
+.dropbtn{
+    display:none;
 }
 
-a:link {
-    color: #D7D2CE;
-  }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 10px;
+}
 
-a:hover {
-    color: #D3C0B2;
-  }
+.one {
+    grid-column:1/2;
+    grid-row: 1/span 2;
+}
+
+.two {
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+.three {
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
