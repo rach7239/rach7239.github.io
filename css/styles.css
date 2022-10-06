@@ -2,9 +2,10 @@ h1 {
     font-family: 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 72px;
     line-height: 60px;
     color: #D7D2CE;
+    text-align: center
 }
 
 h2 {
@@ -13,16 +14,16 @@ h2 {
     font-weight: 400;
     font-size: 48px;
     line-height: 60px;
-    color: #000000;
+    color: #D7D2CE;
 }
 
 h3 {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 36px;
     line-height: 50px;
-    color: #000000;
+    color: #D7D2CE;
 }
 
 h4 {
@@ -31,14 +32,14 @@ h4 {
     font-weight: 400;
     font-size: 36px;
     line-height: 45px;
-    color: #000000;
+    color: #D7D2CE;
 }
 
 p {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 29px;
     color: #4D4946;
 }
@@ -55,7 +56,7 @@ p {
       }
       
       li {
-        float: none;
+        float: none
       }
       
       li a {
