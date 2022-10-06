@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Helvetica';
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -18,7 +18,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Helvetica';
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -27,7 +27,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Helvetica';
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -36,7 +36,7 @@ h4 {
 }
 
 p {
-    font-family: 'Helvetica';
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
