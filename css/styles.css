@@ -5,7 +5,7 @@ h1 {
     font-size: 72px;
     line-height: 60px;
     color: #D7D2CE;
-    text-align: center
+    text-align: center;
 }
 
 h2 {
@@ -48,6 +48,13 @@ p {
     border-bottom: 5px solid #A99282;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 @media only screen and (min-width:701px)
 {
     ul {
@@ -85,13 +92,11 @@ p {
     }
 
     .one {
-        grid-column:1/2;
-        grid-row: 1/span 2;
+        text-align: center;
     }
 
     .two {
-        grid-column: 2/2;
-        grid-row: 1/2;
+        text-align: center;
     }
 
     .first {
@@ -113,6 +118,13 @@ p {
     .fourth {
         grid-column: 1/2;
         grid-row: 5/span 8;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
 }
@@ -158,6 +170,13 @@ p {
     .grid-container {
         display:grid;
         padding: 10px;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 }
 
@@ -232,6 +251,12 @@ p {
         grid-column: 2/2;
         grid-row: 6/7;
     }
-    
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
     
 }
