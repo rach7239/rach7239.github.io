@@ -44,6 +44,9 @@ p {
     color: #4D4946;
 }
 
+.border {
+    border-bottom: 5px solid #A99282;
+}
 
 @media only screen and (min-width:701px)
 {
@@ -56,7 +59,7 @@ p {
       }
       
       li {
-        float: left
+        float: center
       }
       
       li a {
@@ -89,6 +92,27 @@ p {
     .two {
         grid-column: 2/2;
         grid-row: 1/2;
+    }
+
+    .first {
+        grid-column: 2/2;
+        grid-row: 3/span 6;
+        padding: 100px;
+    }
+
+    .second {
+        grid-column: 1/2;
+        grid-row: 1/span 2;
+    }
+
+    .third {
+        grid-column: 1/2;
+        grid-row: 3/span 6;
+    }
+
+    .fourth {
+        grid-column: 1/2;
+        grid-row: 5/span 8;
     }
 
 }
