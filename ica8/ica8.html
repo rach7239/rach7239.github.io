@@ -7,14 +7,36 @@
     <link rel="stylesheet" href="/css/styles.css">
     <script defer src="/ica8/ica8.js"></script>
     <title>Document</title>
+    <script>
+        function updateParagraphText(){
+          let labelElement = document.getElementById('label');
+  
+          labelElement.innerText = 'You clicked the button!';
+        }
+
+        function sayHello(){
+            let inputElement = document.getElementById('name-input');
+            let name = inputElement.value;
+        
+            let outputElement = document.getElementById('output');
+            outputElement.innerText = 'Hello ' + name + '!';
+      }
+      </script>
 </head>
 <body>
-    <div>Test</div>
-    <button type="button" onclick="revealMessage()">Click here!</button>
-    <p id="hiddenMessage" style="display:none">Hi there!</p>
+    <p id="label">
+        Click the button.
+      </p>
+      <button onclick="updateParagraphText();">
+        Click me!
+      </button>
 
-
-
+    <p>Type your name below</p>
+      <input id="name-input" />
+      <button onclick="sayHello();">
+        Click me!
+      </button>
+      <p id="output"></p>
 
 </body>
 </html>
