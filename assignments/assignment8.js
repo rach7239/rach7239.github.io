@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = 'It was 102 Fahrenheit, so :insertx: decided to go to the ice cream shop. When they got to the shop, they chose :inserty:. After leaving the ice cream shop, they :insertz:. They had a great time, but they decided to go to the gym because :insertx: does weigh 625 pounds.';
+const storyText = 'It was 102 Fahrenheit, so :insertx: decided to go to the ice cream shop. When they got to the shop, they chose :inserty:. After leaving the ice cream shop, they :insertz:. Their friend, Bob, had a great time, but :insertx: decided to go to the gym because they do weigh 625 pounds.';
 const insertX = ['Santa', 'Mickey Mouse', 'Barbie'];
 const insertY = ['chocolate ice cream', 'cotton candy ice cream', 'strawberry ice cream'];
 const insertZ = ['decided to go to the swimming pool','went for a walk at the park','hung out with their neighborhood friends'];
