@@ -25,7 +25,7 @@
 
     async function populate() {
 
-      const requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+      const requestURL = 'https://rach7239.github.io/assignments/assignment%2010/employees.json';
       const request = new Request(requestURL);
 
       const response = await fetch(request);
@@ -42,27 +42,29 @@
       myH1.textContent = obj.companyName;
       header.appendChild(myH1);
 
-      const myPara = document.createElement('p');
-      myPara.textContent = `Hometown: ${obj.homeTown} // Formed: ${obj.formed}`;
-      header.appendChild(myPara);
     }
 
     function populateHeroes(obj) {
       const section = document.querySelector('section');
       const employees = obj.arrayofEmployees;
 
-      for (const hero of heroes) {
+      for (const employee of employees) {
         const myArticle = document.createElement('article');
         const myH2 = document.createElement('h2');
         const myPara1 = document.createElement('p');
         const myPara2 = document.createElement('p');
         const myPara3 = document.createElement('p');
-        const myList = document.createElement('ul');
+        const myPara4 = document.createElement('p');
+        const myPara5 = document.createElement('p');
+        const myPara6 = document.createElement('p');
 
-        myH2.textContent = employee.name;
-        myPara1.textContent = `Secret identity: ${hero.secretIdentity}`;
-        myPara2.textContent = `Age: ${hero.age}`;
-        myPara3.textContent = 'Superpowers:';
+        myH2.textContent = arrayofEmployees.name;
+        myPara1.textContent = `Name: ${arrayofEmployees.name}`;
+        myPara2.textContent = `Department: ${arrayofEmployees.department}`;
+        myPara3.textContent = `Designation: ${arrayofEmployees.designation}`;
+        myPara4.textContent = `Salary: ${arrayofEmployees.salary}`;
+        myPara5.textContent = `Raise Eligible: ${arrayofEmployees.raiseEligible}`;
+        myPara6.textContent = `Work from home: ${arrayofEmployees.wfh}`;
 
         const superPowers = hero.powers;
         for (const power of superPowers) {
