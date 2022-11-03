@@ -28,5 +28,3 @@ function displayQuote(x) {
 
     document.getElementById('js-quote-text').textContent = x;
 }
-
-//getQuote();
