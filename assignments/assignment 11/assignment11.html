@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment11.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <title>Random Dog Fact Generator</title>
+</head>
+<body>
+    <div class="app">
+        <header>Random Dog Facts</header>
+        <section class = "quotes">
+        <div class="quote-text" id="js-quote-text"></div>
+        </section>
+        <section class="controls">
+          <button onclick="move()" type="button" id="js-new-quote" class="new-quote button">
+            Generate New Dog Fact
+          </button>
+          <div id="myProgress">
+            <div id="myBar" class="center">Progress</div>
+          </div>
+          <p>I decided to extend the machine by adding a load bar.</p>
+        </section> 
+      </div>
+    <script src="assignment11.js"></script>
+</body>
+</html>
