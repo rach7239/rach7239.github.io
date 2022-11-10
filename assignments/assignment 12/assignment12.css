@@ -1,0 +1,36 @@
+p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 10px;
+    color: #000000;
+    padding: 8px
+}
+
+.button{
+    background-color: hotpink;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 7px;
+    border-color: lightblue;
+    font-family: 'Lato';
+}
+
+.telephone-number {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+}
+
+.button:visited{
+    background-color: rgb(228, 188, 194);
+    color:#f4ebf1;
+}
+
+.button:hover{
+    background-color: rgb(245, 159, 191);
+    color:#F4F2F0;
+}
